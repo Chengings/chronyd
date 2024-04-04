@@ -9,7 +9,7 @@ services:
     ports:
       - 123:123/udp
     environment:
-      - NTP_SERVERS=time.cloudflare.com
+      - NTP_SERVERS="139.143.5.30,139.143.5.31,ntp2.cam.ac.uk,ntp.time.nl,2.de.pool.ntp.org,sth2.ntp.netnod.se"
       - LOG_LEVEL=0
 #      - TZ=America/Vancouver
 #      - NOCLIENTLOG=true
